@@ -49,7 +49,9 @@ Keyboard: **Escape** closes lightbox → tour → listing; **ArrowLeft/ArrowRigh
 
 ## Vercel (multi-service)
 
-Root `vercel.json` defines two services:
+**Recommended:** In Vercel → **Settings → General → Root Directory**, leave **empty** (repository root) so root `vercel.json` **Services** (`web` + `api`) apply.
+
+If Root Directory is **`apps/web`** (Vite auto-detect), use `apps/web/vercel.json` — it runs install/build from the monorepo root and builds `@play/shared` first. The web `package.json` `build` script also runs `build:shared` when the dashboard uses plain `npm run build`.
 
 | Service | Root | Public route |
 |---------|------|----------------|
@@ -60,7 +62,7 @@ The browser calls `fetch('/api/listing')` on the same domain; top-level rewrites
 
 Local alternative: `npm run dev` (web proxy → API on :3001). For services locally: `vercel dev` from repo root (requires Vercel CLI).
 
-**Project settings:** Root Directory = **repository root** (empty or `.`) so root `vercel.json` is used. In Deployments, confirm the commit is **`e71c005` or newer** (older builds used `tsc -p tsconfig.json` and fail on `supertest`). Clear any dashboard **Build Command** / **Install Command** overrides so `vercel.json` applies. Repo `.npmrc` sets `include=dev` for production installs.
+**Project settings:** Root Directory = **repository root** for Services, or **`apps/web`** only for a frontend-only project (API must be deployed separately or switch to repo root). In Deployments, confirm the commit is current. Clear dashboard **Build Command** / **Install Command** overrides when using `vercel.json`. Repo `.npmrc` sets `include=dev` for production installs.
 
 Each service runs `install` / `build` from the monorepo root (`cd ../..`) so npm workspaces link `@play/shared`.
 
