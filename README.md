@@ -60,7 +60,9 @@ The browser calls `fetch('/api/listing')` on the same domain; top-level rewrites
 
 Local alternative: `npm run dev` (web proxy → API on :3001). For services locally: `vercel dev` from repo root (requires Vercel CLI).
 
-**Project settings:** Root Directory = repository root (where `vercel.json` lives). Each service runs `install` / `build` from the monorepo root (`cd ../..`) so npm workspaces link `@play/shared`.
+**Project settings:** Root Directory = **repository root** (empty or `.`) so root `vercel.json` is used. In Deployments, confirm the commit is **`e71c005` or newer** (older builds used `tsc -p tsconfig.json` and fail on `supertest`). Clear any dashboard **Build Command** / **Install Command** overrides so `vercel.json` applies. Repo `.npmrc` sets `include=dev` for production installs.
+
+Each service runs `install` / `build` from the monorepo root (`cd ../..`) so npm workspaces link `@play/shared`.
 
 ## Visual QA
 

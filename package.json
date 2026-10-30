@@ -9,6 +9,7 @@
   "scripts": {
     "dev": "concurrently -n api,web -c blue,magenta \"npm run dev -w @play/api\" \"npm run dev -w @play/web\"",
     "build": "npm run build -w @play/shared && npm run build -w @play/api && npm run build -w @play/web",
+    "vercel-build": "npm run build",
     "start": "npm run start -w @play/api",
     "test": "npm run test -w @play/api && npm run test -w @play/web",
     "lint": "npm run lint -w @play/web"
