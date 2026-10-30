@@ -1,15 +1,33 @@
 {
-  "version": 2,
-  "installCommand": "npm install",
-  "buildCommand": "npm run build -w @play/shared && npm run build -w @play/api && npm run build -w @play/web",
-  "outputDirectory": "apps/web/dist",
-  "rewrites": [
-    { "source": "/api/(.*)", "destination": "/api" },
-    { "source": "/(.*)", "destination": "/index.html" }
-  ],
-  "functions": {
-    "api/index.ts": {
-      "includeFiles": "fixtures/listing.json"
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "services": {
+    "api": {
+      "root": "apps/api",
+      "framework": "express",
+      "installCommand": "npm install --include=dev",
+      "buildCommand": "npm run build -w @play/shared && npm run build -w @play/api",
+      "entrypoint": "src/serverless.ts"
+    },
+    "web": {
+      "root": "apps/web",
+      "framework": "vite",
+      "installCommand": "npm install --include=dev",
+      "buildCommand": "npm run build -w @play/shared && npm run build -w @play/web",
+      "outputDirectory": "dist"
     }
-  }
+  },
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": {
+        "service": "api"
+      }
+    },
+    {
+      "source": "/(.*)",
+      "destination": {
+        "service": "web"
+      }
+    }
+  ]
 }

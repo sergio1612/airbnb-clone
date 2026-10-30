@@ -7,7 +7,7 @@ Desktop-focused Airbnb-style listing page with **Photo Tour** and **Lightbox**, 
 - **Frontend:** React 19, TypeScript, Vite, Tailwind CSS v4, Lucide React, Plus Jakarta Sans
 - **Backend:** Express 5 + TypeScript
 - **Tests:** Vitest + Testing Library
-- **Deploy:** Vercel (SPA + `/api` serverless function)
+- **Deploy:** Vercel **Services** (`web` + `api` in root `vercel.json`)
 
 ## Prerequisites
 
@@ -34,9 +34,8 @@ npm run dev
 ## Project layout
 
 ```text
-apps/web/          Vite React app
-apps/api/          Express server (local dev)
-api/index.ts       Vercel serverless entry
+apps/web/          Vite React app (Vercel service: web)
+apps/api/          Express API (Vercel service: api)
 fixtures/          listing.json
 packages/shared/   Shared TypeScript types
 ```
@@ -48,9 +47,20 @@ packages/shared/   Shared TypeScript types
 
 Keyboard: **Escape** closes lightbox → tour → listing; **ArrowLeft/ArrowRight** in lightbox.
 
-## Vercel
+## Vercel (multi-service)
 
-Connect the repo to Vercel. Root `vercel.json` builds the web app and routes `/api/*` to `api/index.ts`.
+Root `vercel.json` defines two services:
+
+| Service | Root | Public route |
+|---------|------|----------------|
+| **web** | `apps/web` (Vite) | `/` (catch-all) |
+| **api** | `apps/api` (Express) | `/api/*` via rewrite |
+
+The browser calls `fetch('/api/listing')` on the same domain; top-level rewrites send `/api/*` to the **api** service. No service binding is required (the web app does not call the API from server-side code).
+
+Local alternative: `npm run dev` (web proxy → API on :3001). For services locally: `vercel dev` from repo root (requires Vercel CLI).
+
+**Project settings:** Root Directory = repository root (where `vercel.json` lives).
 
 ## Visual QA
 

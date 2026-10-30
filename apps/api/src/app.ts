@@ -1,5 +1,5 @@
 import cors from 'cors';
-import express from 'express';
+import express, { type Request, type Response } from 'express';
 import { readFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -12,6 +12,7 @@ export function loadListing(): ListingResponse {
   const candidates = [
     join(__dirname, '../../../fixtures/listing.json'),
     join(process.cwd(), 'fixtures/listing.json'),
+    join(process.cwd(), '../../fixtures/listing.json'),
   ];
 
   for (const path of candidates) {
@@ -32,11 +33,11 @@ export function createApp() {
 
   app.use(cors());
 
-  app.get('/api/health', (_req, res) => {
+  app.get('/api/health', (_req: Request, res: Response) => {
     res.json({ ok: true });
   });
 
-  app.get('/api/listing', (_req, res) => {
+  app.get('/api/listing', (_req: Request, res: Response) => {
     res.json(listingPayload);
   });
 
