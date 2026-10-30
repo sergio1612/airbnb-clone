@@ -1,0 +1,13 @@
+---
+description: React listing UI patterns for apps/web
+globs: apps/web/src/**/*
+alwaysApply: false
+---
+
+# Web UI patterns
+
+- Prefer existing folders: `components/layout`, `components/listing`, `components/overlays`, `hooks`, `lib`.
+- Use `@play/shared` types; extend fixture + shared types together when adding fields.
+- Styling: Tailwind utilities + tokens in `index.css` (`rausch`, `line`, `grey100`, etc.).
+- Icons: Lucide only unless matching reference requires custom SVG (e.g. guest favourite laurel).
+- Modals: `role="dialog"`, `aria-modal="true"`, focus trap hook, close on Escape from a single owner when tied to history.

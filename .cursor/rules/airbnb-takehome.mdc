@@ -1,0 +1,29 @@
+---
+description: Airbnb listing take-home — scope, integrity, and QA bar
+alwaysApply: true
+---
+
+# Airbnb clone take-home
+
+## Reference
+
+- Visual and behavioral source of truth: https://airbnb-clone-umber-two.vercel.app (desktop **1920×1080** only).
+- Do **not** copy or lift source code from the reference deployment. Implement original React/Tailwind code.
+
+## Stack conventions
+
+- Monorepo: `apps/web` (Vite React 19, Tailwind v4, Lucide, Plus Jakarta Sans), `apps/api` (Express), `packages/shared`, `fixtures/listing.json`.
+- Overlay URLs: `?modal=PHOTO_TOUR_SCROLLABLE` and `?modal=PHOTO_TOUR_SCROLLABLE&modalItem=<photoId>`.
+- Escape closes lightbox → tour → listing (single history step per press); arrow keys in lightbox only.
+
+## Quality bar
+
+- Match layout tokens: 1120px content column, 372px booking card, tour shell ~1024px.
+- Overlays: focus trap, inert background, enter/exit motion, `aria-modal` dialogs.
+- Run `npm run build`, `npm test`, and `npm run lint` before claiming work is done.
+
+## Deliverables in repo
+
+- `docs/architecture.md` + exported diagram PNG for submission zip.
+- `PROMPTS.md` — chronological AI prompt log (sanitized).
+- `.cursor/rules/` — project guidance (this file).

@@ -1,0 +1,22 @@
+%% Take-home demo implementation (this repository)
+flowchart LR
+  subgraph browser["Desktop browser 1920×1080"]
+    SPA["React 19 + Vite SPA"]
+    OV["Photo Tour & Lightbox overlays"]
+  end
+
+  subgraph vercel["Vercel deployment"]
+    STATIC["Static build (apps/web/dist)"]
+    FN["Serverless function api/index.ts"]
+  end
+
+  subgraph backend["Backend"]
+    API["Express createApp()"]
+    FIX[("fixtures/listing.json")]
+  end
+
+  SPA --> OV
+  STATIC --> SPA
+  SPA -->|"GET /api/listing"| FN
+  FN --> API
+  API --> FIX

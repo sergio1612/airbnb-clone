@@ -1,0 +1,302 @@
+{
+  "listing": {
+    "id": "candolim-jacuzzi-1bhk",
+    "title": "Romantic Jacuzzi 1BHK Candolim | Minalya @G02",
+    "pageTitle": "Romantic Jacuzzi 1BHK Candolim | Minalya @G02 - Condos for Rent in Candolim, Goa, India - Airbnb",
+    "propertyType": "Entire condo",
+    "location": "Candolim",
+    "country": "India",
+    "guests": 3,
+    "bedrooms": 1,
+    "beds": 1,
+    "baths": 1,
+    "rating": 4.93,
+    "reviewCount": 15,
+    "isGuestFavourite": true,
+    "guestFavouriteBlurb": "One of the most loved homes on Airbnb, according to guests",
+    "description": "Plan your relaxing holiday at this cozy 1BHK in the heart of Candolim, featuring a private jacuzzi for the perfect unwind. Enjoy high-speed WiFi, smart TV, a fully equipped kitchen, and a calm outdoor lounge. Ideal for couples and small families exploring North Goa beaches, cafes, and nightlife.",
+    "sleepSummary": "1 queen bed",
+    "sleepSpaces": [
+      { "id": "bedroom", "name": "Bedroom", "summary": "1 queen bed", "photoId": 1003 },
+      { "id": "living", "name": "Living room", "summary": "1 sofa bed", "photoId": 1002 }
+    ],
+    "highlights": [
+      {
+        "id": "checkin",
+        "title": "Self check-in",
+        "subtitle": "Check yourself in with the keypad.",
+        "icon": "key"
+      },
+      {
+        "id": "superhost",
+        "title": "Minalya is a Superhost",
+        "subtitle": "Superhosts are experienced, highly rated hosts.",
+        "icon": "superhost"
+      }
+    ],
+    "host": {
+      "name": "Minalya",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=240&h=240&q=80",
+      "yearsHosting": 4,
+      "isSuperhost": true,
+      "totalReviews": 1433,
+      "responseRate": "100%",
+      "responseTime": "Responds within an hour",
+      "bio": "Hi, I'm Minalya. I love welcoming guests to North Goa and making sure every stay feels calm, clean, and comfortable."
+    },
+    "booking": {
+      "currencySymbol": "₹",
+      "pricePerNight": 8429,
+      "cleaningFee": 1500,
+      "serviceFee": 4899,
+      "totalForNights": 48844,
+      "nights": 5,
+      "checkIn": "10/18/2026",
+      "checkOut": "10/23/2026",
+      "guests": 2,
+      "maxGuests": 3,
+      "freeCancellationBefore": "17 October",
+      "promoText": "Get 10% off your next stay. Terms apply"
+    },
+    "amenities": [
+      { "id": "kitchen", "label": "Kitchen", "icon": "utensils", "category": "Kitchen and dining" },
+      { "id": "wifi", "label": "Wifi", "icon": "wifi", "category": "Internet and office" },
+      { "id": "workspace", "label": "Dedicated workspace", "icon": "laptop", "category": "Internet and office" },
+      { "id": "parking", "label": "Free parking on premises", "icon": "car", "category": "Parking and facilities" },
+      { "id": "pool", "label": "Pool", "icon": "waves", "category": "Outdoor" },
+      { "id": "hottub", "label": "Hot tub", "icon": "bath", "category": "Bathroom" },
+      { "id": "pets", "label": "Pets allowed", "icon": "paw", "category": "Services" },
+      { "id": "cameras", "label": "Exterior security cameras on property", "icon": "camera", "category": "Home safety" },
+      { "id": "co", "label": "Carbon monoxide alarm", "icon": "alarm", "category": "Home safety" },
+      { "id": "smoke", "label": "Smoke alarm", "icon": "alarm", "category": "Home safety" },
+      { "id": "ac", "label": "Air conditioning", "icon": "snowflake", "category": "Heating and cooling" },
+      { "id": "tv", "label": "TV", "icon": "tv", "category": "Entertainment" },
+      { "id": "washer", "label": "Washer", "icon": "washing", "category": "Bedroom and laundry" },
+      { "id": "dryer", "label": "Dryer", "icon": "washing", "category": "Bedroom and laundry" },
+      { "id": "gym", "label": "Gym", "icon": "dumbbell", "category": "Parking and facilities" },
+      { "id": "hairdryer", "label": "Hair dryer", "icon": "wind", "category": "Bathroom" },
+      { "id": "essentials", "label": "Essentials", "icon": "check", "category": "Bathroom" },
+      { "id": "shampoo", "label": "Shampoo", "icon": "droplet", "category": "Bathroom" },
+      { "id": "hotwater", "label": "Hot water", "icon": "droplet", "category": "Bathroom" },
+      { "id": "hangers", "label": "Hangers", "icon": "shirt", "category": "Bedroom and laundry" },
+      { "id": "iron", "label": "Iron", "icon": "shirt", "category": "Bedroom and laundry" },
+      { "id": "crib", "label": "Crib", "icon": "check", "category": "Family" },
+      { "id": "highchair", "label": "High chair", "icon": "check", "category": "Family" },
+      { "id": "breakfast", "label": "Breakfast", "icon": "utensils", "category": "Kitchen and dining" },
+      { "id": "microwave", "label": "Microwave", "icon": "utensils", "category": "Kitchen and dining" },
+      { "id": "dishes", "label": "Dishes and silverware", "icon": "utensils", "category": "Kitchen and dining" },
+      { "id": "minibar", "label": "Mini fridge", "icon": "utensils", "category": "Kitchen and dining" },
+      { "id": "elevator", "label": "Elevator", "icon": "check", "category": "Parking and facilities" },
+      { "id": "luggage", "label": "Luggage dropoff allowed", "icon": "check", "category": "Services" },
+      { "id": "longstay", "label": "Long term stays allowed", "icon": "calendar", "category": "Services" },
+      { "id": "fireplace", "label": "Indoor fireplace", "icon": "check", "category": "Heating and cooling" }
+    ],
+    "heroPhotoIds": [1000, 1001, 1031, 1003, 1004],
+    "photos": [
+      { "id": 1000, "categoryId": "living-1", "alt": "Covered outdoor lounge with wicker seating", "url": "https://images.unsplash.com/photo-1600210492493-0946911123ea?auto=format&fit=crop&w=1440&h=1080&q=80" },
+      { "id": 1001, "categoryId": "living-1", "alt": "Indoor living and dining area", "url": "https://images.unsplash.com/photo-1616594039964-ae9021a400a0?auto=format&fit=crop&w=1440&h=1080&q=80" },
+      { "id": 1002, "categoryId": "living-1", "alt": "Indoor living and dining area", "url": "https://images.unsplash.com/photo-1616594039964-ae9021a400a0?auto=format&fit=crop&w=1440&h=1080&q=80" },
+      { "id": 1003, "categoryId": "bedroom", "alt": "Bedroom with white bedding", "url": "https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=1440&h=1080&q=80" },
+      { "id": 1004, "categoryId": "exterior", "alt": "Apartment building exterior", "url": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1440&h=808&q=80" },
+      { "id": 1005, "categoryId": "living-2", "alt": "Living room sofa and coffee table", "url": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=1440&h=1080&q=80" },
+      { "id": 1006, "categoryId": "living-2", "alt": "Living room TV console", "url": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1440&h=1080&q=80" },
+      { "id": 1007, "categoryId": "living-2", "alt": "Bright living space with plants", "url": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1440&h=1080&q=80" },
+      { "id": 1008, "categoryId": "living-2", "alt": "Lounge corner with armchair", "url": "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1440&h=1080&q=80" },
+      { "id": 1009, "categoryId": "living-2", "alt": "Open living dining area", "url": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1440&h=1080&q=80" },
+      { "id": 1010, "categoryId": "living-2", "alt": "Living room evening lighting", "url": "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?auto=format&fit=crop&w=1440&h=1080&q=80" },
+      { "id": 1011, "categoryId": "living-2", "alt": "Modern apartment living room", "url": "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1440&h=1080&q=80" },
+      { "id": 1012, "categoryId": "kitchen", "alt": "Full kitchen with island", "url": "https://images.unsplash.com/photo-1556912173-46c336c7fd55?auto=format&fit=crop&w=1440&h=1080&q=80" },
+      { "id": 1013, "categoryId": "kitchen", "alt": "Kitchen counter and stove", "url": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&w=1440&h=1080&q=80" },
+      { "id": 1014, "categoryId": "bedroom", "alt": "Queen bedroom overview", "url": "https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=1440&h=1080&q=80" },
+      { "id": 1015, "categoryId": "bedroom", "alt": "Bedroom with wooden floors", "url": "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?auto=format&fit=crop&w=1440&h=1080&q=80" },
+      { "id": 1016, "categoryId": "bedroom", "alt": "Bedroom window light", "url": "https://images.unsplash.com/photo-1560185893-a55cbc8c57bb?auto=format&fit=crop&w=1440&h=1080&q=80" },
+      { "id": 1017, "categoryId": "bedroom", "alt": "Bedroom styling detail", "url": "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=1440&h=1080&q=80" },
+      { "id": 1018, "categoryId": "bedroom", "alt": "Bedroom nightstand", "url": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1440&h=1080&q=80" },
+      { "id": 1019, "categoryId": "bathroom", "alt": "Full bathroom with shower", "url": "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?auto=format&fit=crop&w=1440&h=1080&q=80" },
+      { "id": 1020, "categoryId": "gym", "alt": "Apartment gym equipment", "url": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1440&h=1080&q=80" },
+      { "id": 1021, "categoryId": "gym", "alt": "Fitness area weights", "url": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=1440&h=1080&q=80" },
+      { "id": 1022, "categoryId": "gym", "alt": "Cardio machines", "url": "https://images.unsplash.com/photo-1571902943202-507ec2618e8f?auto=format&fit=crop&w=1440&h=1080&q=80" },
+      { "id": 1023, "categoryId": "gym", "alt": "Gym floor overview", "url": "https://images.unsplash.com/photo-1540497077202-7c8a3999166f?auto=format&fit=crop&w=1440&h=1080&q=80" },
+      { "id": 1024, "categoryId": "gym", "alt": "Stretching corner", "url": "https://images.unsplash.com/photo-1593079831268-3381b0db4a77?auto=format&fit=crop&w=1440&h=1080&q=80" },
+      { "id": 1025, "categoryId": "exterior", "alt": "Building courtyard", "url": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1440&h=1080&q=80" },
+      { "id": 1026, "categoryId": "exterior", "alt": "Entrance walkway", "url": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1440&h=1080&q=80" },
+      { "id": 1027, "categoryId": "exterior", "alt": "Night exterior facade", "url": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1440&h=1080&q=80" },
+      { "id": 1028, "categoryId": "exterior", "alt": "Balcony view", "url": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=1440&h=1080&q=80" },
+      { "id": 1029, "categoryId": "exterior", "alt": "Residential complex path", "url": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=1440&h=1080&q=80" },
+      { "id": 1030, "categoryId": "pool", "alt": "Resort pool overview", "url": "https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?auto=format&fit=crop&w=1440&h=1080&q=80" },
+      { "id": 1031, "categoryId": "pool", "alt": "Private jacuzzi", "url": "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=1440&h=1080&q=80" },
+      { "id": 1032, "categoryId": "pool", "alt": "Pool deck loungers", "url": "https://images.unsplash.com/photo-1540541338287-41700207dee6?auto=format&fit=crop&w=1440&h=1080&q=80" },
+      { "id": 1033, "categoryId": "extra", "alt": "Dining table setting", "url": "https://images.unsplash.com/photo-1617806118233-18e1de247200?auto=format&fit=crop&w=1440&h=1080&q=80" },
+      { "id": 1034, "categoryId": "extra", "alt": "Breakfast nook", "url": "https://images.unsplash.com/photo-1600489000022-c2086d79f9d4?auto=format&fit=crop&w=1440&h=1080&q=80" },
+      { "id": 1035, "categoryId": "extra", "alt": "Workspace desk", "url": "https://images.unsplash.com/photo-1593062096033-9a2c47a3daac?auto=format&fit=crop&w=1440&h=1080&q=80" },
+      { "id": 1036, "categoryId": "extra", "alt": "Wardrobe detail", "url": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=1440&h=1080&q=80" },
+      { "id": 1037, "categoryId": "extra", "alt": "Hallway art", "url": "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?auto=format&fit=crop&w=1440&h=1080&q=80" },
+      { "id": 1038, "categoryId": "extra", "alt": "Outdoor night seating", "url": "https://images.unsplash.com/photo-1600210492493-0946911123ea?auto=format&fit=crop&w=1440&h=1080&q=80" },
+      { "id": 1039, "categoryId": "extra", "alt": "Garden pathway", "url": "https://images.unsplash.com/photo-1558618047-f4c7c87b0f0b?auto=format&fit=crop&w=1440&h=1080&q=80" },
+      { "id": 1040, "categoryId": "extra", "alt": "Kitchenware close-up", "url": "https://images.unsplash.com/photo-1556911220-bff31c875d1a?auto=format&fit=crop&w=1440&h=1080&q=80" },
+      { "id": 1041, "categoryId": "extra", "alt": "Bathroom amenities", "url": "https://images.unsplash.com/photo-1620626011761-996317b8d101?auto=format&fit=crop&w=1440&h=1080&q=80" },
+      { "id": 1042, "categoryId": "extra", "alt": "Sunset terrace", "url": "https://images.unsplash.com/photo-1600607687644-c7171b42498b?auto=format&fit=crop&w=1440&h=1080&q=80" }
+    ],
+    "categories": [
+      {
+        "id": "living-1",
+        "name": "Living room 1",
+        "highlights": ["Sofa", "Air conditioning", "Ceiling fan", "TV"],
+        "photoIds": [1000, 1001, 1002]
+      },
+      {
+        "id": "living-2",
+        "name": "Living room 2",
+        "highlights": ["Sofa", "Coffee table", "Smart TV"],
+        "photoIds": [1005, 1006, 1007, 1008, 1009, 1010, 1011]
+      },
+      {
+        "id": "kitchen",
+        "name": "Full kitchen",
+        "highlights": ["Fridge", "Cookware", "Dining"],
+        "photoIds": [1012, 1013]
+      },
+      {
+        "id": "bedroom",
+        "name": "Bedroom",
+        "highlights": ["Queen bed", "Wardrobe", "Blackout curtains"],
+        "photoIds": [1014, 1015, 1016, 1017, 1018, 1003]
+      },
+      {
+        "id": "bathroom",
+        "name": "Full bathroom",
+        "highlights": ["Shower", "Hot water", "Essentials"],
+        "photoIds": [1019]
+      },
+      {
+        "id": "gym",
+        "name": "Gym",
+        "highlights": ["Weights", "Cardio", "Mats"],
+        "photoIds": [1020, 1021, 1022, 1023, 1024]
+      },
+      {
+        "id": "exterior",
+        "name": "Exterior",
+        "highlights": ["Building", "Entrance", "Courtyard"],
+        "photoIds": [1004, 1025, 1026, 1027, 1028, 1029]
+      },
+      {
+        "id": "pool",
+        "name": "Pool",
+        "highlights": ["Pool", "Jacuzzi", "Loungers"],
+        "photoIds": [1030, 1031, 1032]
+      },
+      {
+        "id": "extra",
+        "name": "Additional photos",
+        "highlights": [],
+        "photoIds": [1033, 1034, 1035, 1036, 1037, 1038, 1039, 1040, 1041, 1042]
+      }
+    ],
+    "reviews": [
+      {
+        "id": "r1",
+        "author": "Aisha",
+        "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=120&h=120&q=80",
+        "date": "September 2026",
+        "rating": 5,
+        "text": "Beautiful stay with a private jacuzzi. The apartment was spotless and the host responded instantly.",
+        "location": "Mumbai, India"
+      },
+      {
+        "id": "r2",
+        "author": "Daniel",
+        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=120&h=120&q=80",
+        "date": "August 2026",
+        "rating": 5,
+        "text": "Perfect base for Candolim. Comfortable bed, strong wifi, and a calm outdoor lounge for evenings.",
+        "location": "Berlin, Germany"
+      },
+      {
+        "id": "r3",
+        "author": "Priya",
+        "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=120&h=120&q=80",
+        "date": "July 2026",
+        "rating": 5,
+        "text": "Loved the jacuzzi and kitchen setup. Felt safe, stylish, and very well maintained.",
+        "location": "Bengaluru, India"
+      },
+      {
+        "id": "r4",
+        "author": "James",
+        "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=120&h=120&q=80",
+        "date": "June 2026",
+        "rating": 4,
+        "text": "Great location and amenities. Check-in was smooth and the pool area was a highlight.",
+        "location": "London, UK"
+      }
+    ],
+    "reviewCategories": [
+      { "label": "Cleanliness", "score": 4.9 },
+      { "label": "Accuracy", "score": 4.9 },
+      { "label": "Check-in", "score": 5.0 },
+      { "label": "Communication", "score": 5.0 },
+      { "label": "Location", "score": 4.8 },
+      { "label": "Value", "score": 4.8 }
+    ],
+    "houseRules": [
+      "Check-in after 2:00 pm",
+      "Checkout before 11:00 am",
+      "3 guests maximum"
+    ],
+    "safetyItems": [
+      "Carbon monoxide alarm not reported",
+      "Smoke alarm not reported",
+      "Exterior security cameras on property"
+    ],
+    "cancellationSummary": "Free cancellation before 17 October. Cancel before check-in on 18 October for a partial refund.",
+    "checkInTime": "after 2:00 pm",
+    "checkOutTime": "before 11:00 am",
+    "locationBlurb": "Candolim is a lively North Goa neighbourhood with beach shacks, cafes, and easy access to Calangute and Baga.",
+    "mapEmbedQuery": "Candolim, Goa, India",
+    "nearbyStays": [
+      {
+        "id": "nearby-1",
+        "title": "Cozy studio with pool access",
+        "location": "Candolim",
+        "rating": 4.92,
+        "reviewCount": 28,
+        "pricePerNight": 4200,
+        "currencySymbol": "₹",
+        "imageUrl": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=640&h=480&q=80",
+        "isGuestFavourite": true
+      },
+      {
+        "id": "nearby-2",
+        "title": "Modern 2BHK near the beach",
+        "location": "Calangute",
+        "rating": 4.88,
+        "reviewCount": 41,
+        "pricePerNight": 5100,
+        "currencySymbol": "₹",
+        "imageUrl": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=640&h=480&q=80"
+      },
+      {
+        "id": "nearby-3",
+        "title": "Garden villa with jacuzzi",
+        "location": "Sinquerim",
+        "rating": 4.97,
+        "reviewCount": 15,
+        "pricePerNight": 6800,
+        "currencySymbol": "₹",
+        "imageUrl": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=640&h=480&q=80",
+        "isGuestFavourite": true
+      },
+      {
+        "id": "nearby-4",
+        "title": "Bright apartment with sea breeze",
+        "location": "Baga",
+        "rating": 4.85,
+        "reviewCount": 33,
+        "pricePerNight": 3900,
+        "currencySymbol": "₹",
+        "imageUrl": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=640&h=480&q=80"
+      }
+    ]
+  }
+}

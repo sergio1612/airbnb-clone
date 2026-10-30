@@ -1,0 +1,92 @@
+%% Production-scale vacation rental marketplace (Airbnb-class)
+%% Submit: docs/architecture-diagram.png (generated from this file)
+
+flowchart TB
+  subgraph clients["① Client tier"]
+    WEB["Web app (React / SSR hydrate)"]
+    MOB["iOS & Android apps"]
+  end
+
+  subgraph edge["② Edge & delivery"]
+    CDN["Global CDN + WAF"]
+    SSR["SSR / ISR listing pages"]
+    IMG["Image CDN (responsive variants)"]
+  end
+
+  subgraph gateway["③ API tier"]
+    GW["API gateway (auth, rate limits)"]
+    BFF["BFF — GraphQL or REST aggregation"]
+  end
+
+  subgraph core["④ Domain services"]
+    LST["Listings service"]
+    BKG["Bookings & payments"]
+    USR["Users & identity"]
+    MSG["Messaging"]
+    REV["Reviews & ratings"]
+    MED["Media pipeline"]
+  end
+
+  subgraph search["⑤ Search & discovery"]
+    ES["OpenSearch / Elasticsearch"]
+    RNK["Ranking & personalization"]
+  end
+
+  subgraph data["⑥ Data stores"]
+    PG[("PostgreSQL (OLTP + read replicas)")]
+    REDIS[("Redis (cache, sessions, locks)")]
+    S3[("Object storage (photos, assets)")]
+    DW[("Warehouse (analytics, BI)")]
+  end
+
+  subgraph async["⑦ Async processing"]
+    BUS["Event bus (Kafka / SNS+SQS)"]
+    WRK["Workers (thumbnails, index, email, fraud)"]
+  end
+
+  subgraph platform["⑧ Deployment & observability"]
+    K8S["Kubernetes / container platform"]
+    CICD["CI/CD (build, test, deploy)"]
+    OBS["Observability (metrics, traces, logs)"]
+  end
+
+  WEB --> CDN
+  MOB --> GW
+  CDN --> SSR
+  CDN --> IMG
+  SSR --> GW
+  GW --> BFF
+
+  BFF --> LST
+  BFF --> BKG
+  BFF --> USR
+  BFF --> MSG
+  BFF --> REV
+  BFF --> REDIS
+
+  LST --> PG
+  BKG --> PG
+  USR --> PG
+  REV --> PG
+
+  LST --> S3
+  MED --> S3
+  IMG --> S3
+
+  LST --> BUS
+  BKG --> BUS
+  MED --> BUS
+  BUS --> WRK
+  WRK --> ES
+  WRK --> S3
+  LST --> ES
+  RNK --> ES
+
+  BKG --> DW
+  LST --> OBS
+  BKG --> OBS
+  GW --> OBS
+
+  CICD --> K8S
+  K8S --> LST
+  K8S --> GW
