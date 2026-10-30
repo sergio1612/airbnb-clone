@@ -51,7 +51,7 @@ Keyboard: **Escape** closes lightbox → tour → listing; **ArrowLeft/ArrowRigh
 
 **Recommended:** In Vercel → **Settings → General → Root Directory**, leave **empty** (repository root) so root `vercel.json` **Services** (`web` + `api`) apply.
 
-If Root Directory is **`apps/web`** (Vite auto-detect), use `apps/web/vercel.json` — it runs install/build from the monorepo root and builds `@play/shared` first. The web `package.json` `build` script also runs `build:shared` when the dashboard uses plain `npm run build`.
+If Root Directory is **`apps/web`** (Vite auto-detect), use `apps/web/vercel.json` — it runs install/build from the monorepo root and builds `@play/shared` first. **`apps/web/api/listing.ts`** serves `GET /api/listing` on that setup (static SPA has no Express). For **web + Express** together, leave Root Directory empty and use root `vercel.json` **Services**.
 
 | Service | Root | Public route |
 |---------|------|----------------|
