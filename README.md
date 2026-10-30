@@ -60,7 +60,7 @@ The browser calls `fetch('/api/listing')` on the same domain; top-level rewrites
 
 Local alternative: `npm run dev` (web proxy → API on :3001). For services locally: `vercel dev` from repo root (requires Vercel CLI).
 
-**Project settings:** Root Directory = repository root (where `vercel.json` lives).
+**Project settings:** Root Directory = repository root (where `vercel.json` lives). Each service runs `install` / `build` from the monorepo root (`cd ../..`) so npm workspaces link `@play/shared`.
 
 ## Visual QA
 

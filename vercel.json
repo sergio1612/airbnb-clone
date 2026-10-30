@@ -4,15 +4,15 @@
     "api": {
       "root": "apps/api",
       "framework": "express",
-      "installCommand": "npm install --include=dev",
-      "buildCommand": "npm run build -w @play/shared && npm run build -w @play/api",
+      "installCommand": "cd ../.. && npm install --include=dev",
+      "buildCommand": "cd ../.. && npm run build -w @play/shared && npm run build -w @play/api",
       "entrypoint": "src/serverless.ts"
     },
     "web": {
       "root": "apps/web",
       "framework": "vite",
-      "installCommand": "npm install --include=dev",
-      "buildCommand": "npm run build -w @play/shared && npm run build -w @play/web",
+      "installCommand": "cd ../.. && npm install --include=dev",
+      "buildCommand": "cd ../.. && npm run build -w @play/shared && npm run build -w @play/web",
       "outputDirectory": "dist"
     }
   },
